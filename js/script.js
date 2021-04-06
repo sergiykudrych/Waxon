@@ -105,3 +105,58 @@ $(document).ready(function() {
         $(this).toggleClass('active').next().slideToggle(300);
     });
 });
+
+
+const slider = document.querySelector('.swiper-container');
+const slider1 = document.querySelector('.swiper-container1');
+
+let mySwiper = new Swiper(slider, {
+    //кількість слайдів
+    slidesPerView: 1,
+    //відстань між слайдами
+    spaceBetween: 10, 
+    //стрелки
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        600: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        }
+    },
+});
+
+let mySwiper1 = new Swiper(slider1, {
+    //кількість слайдів
+    slidesPerView: 1,
+    //відстань між слайдами
+    spaceBetween: 10,
+    //кружкі для переключання
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        //щоб можна було переключати натискаючи на круглі кнопки
+        clickable: true,
+        //для того щоб не можна було переключати слайди треба для swiper-container  в html написати клас swiper-no-swiping 
+    },
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next-1',
+        prevEl: '.swiper-button-prev-1',
+    },
+});
+
+
+
+
+
+
+
+
+
