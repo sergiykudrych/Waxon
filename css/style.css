@@ -330,13 +330,11 @@ body {
   background-repeat: no-repeat;
   width: 40px;
   height: 74px;
-  margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
   z-index: 10;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
 
 .swiper-button-prev-1,
