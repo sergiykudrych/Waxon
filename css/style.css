@@ -127,6 +127,11 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
+.header.fixed.active {
+  height: 100%;
+  transition: all 0.4s ease;
+}
+
 .search {
   display: flex;
   align-items: center;
@@ -208,7 +213,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding-top: 100px;
-  background: #464542;
+  background-color: #464542;
   background: url(../img/bg1.png) center/cover no-repeat;
 }
 
@@ -1746,7 +1751,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: #373232;
+    background: url(../img/temlape.png) center/cover no-repeat;
     padding: 30px 0 0 0;
     order: 1;
   }
@@ -2832,3 +2837,8 @@ body {
 .webp .swiper-button-next{ background-image: url(../img/right.webp); }
 
 .webp .logos{ background: url(../img/bgi5.webp) center/cover no-repeat; }
+
+@media (max-width: 768px){
+
+  .webp .header__menu{ background: url(../img/temlape.webp) center/cover no-repeat; }
+}
