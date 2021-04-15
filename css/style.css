@@ -1543,7 +1543,7 @@ body {
   .swiper-container-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    bottom: -50px;
+    bottom: -130px;
   }
 
   .header {
@@ -1667,11 +1667,8 @@ body {
 
   .header__menu-link a {
     margin: 0 0 30px 0;
-  }
-
-  .header__menu-link a {
     margin-right: 0;
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 
@@ -2079,12 +2076,6 @@ body {
 @media (max-width: 650px) {
   .header__title h2 {
     font-size: 25px;
-  }
-
-  .swiper-container-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-custom,
-  .swiper-pagination-fraction {
-    bottom: -40px;
   }
 
   .header__title h1 {
@@ -2737,12 +2728,6 @@ body {
 
   .header.fixed {
     height: 47px;
-  }
-
-  .swiper-container-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-custom,
-  .swiper-pagination-fraction {
-    bottom: -35px;
   }
 
   .swiper-button-next-1,
